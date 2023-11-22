@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#app {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    text-align: left;
+    padding: 5px 10px;
+    margin: 5px 0;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
